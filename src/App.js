@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import BTGioHang from './BTGioHang/BTGioHang';
-import BTGioHangRedux from './BTGioHangRedux/BTGioHangRedux';
+import BTGioHangShoe from './BTGioHangShoe/BTGioHangShoe';
 
 function App() {
   return (
     <div className="App">
-      <BTGioHangRedux/>
-      {/* <BTGioHang/> */}
+      <BTGioHangShoe/>
     </div>
   );
 }
